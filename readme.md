@@ -46,3 +46,9 @@ https://www.pdftron.com/blog/react/react-to-pdf/
 npm pdfkit
 https://pspdfkit.com/blog/2019/generate-invoices-pdfkit-node/
 https://github.com/Courtsite/shuttlepdf/blob/master/index.js
+
+
+
+Mailer
+https://www.codementor.io/nodejs/tutorial/nodejs-async-sample-app-mass-mailer
+https://github.com/codeforgeek/mass-mailer-nodejs/blob/master/Server.js

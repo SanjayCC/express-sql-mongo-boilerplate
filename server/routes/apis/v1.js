@@ -6,6 +6,7 @@ const companyController = require('../../../dbcontroller').company;
 const imageController = require('../../controllers/apis/thumbor');
 const elasticSearchController = require('../../controllers/apis/elasticsearch');
 const pdfController = require('../../controllers/apis/pdf');
+const qrCodeController = require('../../controllers/apis/QRCode');
 
 const router = express.Router();
 
@@ -22,4 +23,5 @@ router.get('/testcheck', (req, res) => {
 });
 router.use('/elasticsearch', elasticSearchController);
 router.use('/pdf', pdfController);
+router.use('/QRCODE', qrCodeController);
 module.exports = router;
