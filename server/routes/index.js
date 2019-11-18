@@ -1,12 +1,13 @@
-'use strict';
 const apiRoute = require('./apis');
+const logger = require('../utils/logs');
+
 function init(server) {
-  server.get('*', function (req, res, next) {
-    console.log('Request was made to: ' + req.originalUrl);
+  server.get('*', (req, res, next) => {
+    logger.log('info', `Request was made to: ${req.originalUrl}`);
     return next();
   });
   server.use('/api', apiRoute);
 }
 module.exports = {
-  init: init
+  init,
 };

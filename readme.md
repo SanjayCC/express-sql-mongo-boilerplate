@@ -1,5 +1,8 @@
 https://morioh.com/p/1a4840de9f16
 
+eslint config
+https://travishorn.com/setting-up-eslint-on-vs-code-with-airbnb-javascript-style-guide-6eb78a535ba6
+
 thumbor -p 8000
 https://thumbor.readthedocs.io/en/latest/quality.html
 http://localhost:8888/unsafe/filters:quality(1000)/https://images.pexels.com/photos/1535348/pexels-photo-1535348.jpeg
@@ -11,11 +14,16 @@ https://pngcrush.com/examples
 https://www.npmjs.com/package/jimp?source=post_page-----174f39336153----------------------
 https://stackoverflow.com/questions/10692075/which-library-should-i-use-for-server-side-image-manipulation-on-node-js
 
+
+pgsql
+sudo -u postgres psql postgres
+https://www.djamware.com/post/5bb1f05280aca74669894417/node-express-sequelize-and-postgresql-association-example
+https://www.codementor.io/mayowa.a/how-to-build-a-simple-session-based-authentication-system-with-nodejs-from-scratch-6vn67mcy3
+
 elasticsearch
 https://medium.com/@siddharthac6/elasticsearch-node-js-b16ea8bec427
 
-sudo -u postgres psql postgres
-https://www.djamware.com/post/5bb1f05280aca74669894417/node-express-sequelize-and-postgresql-association-example
+
 
 https://travishorn.com/setting-up-eslint-on-vs-code-with-airbnb-javascript-style-guide-6eb78a535ba6
 https://www.robinwieruch.de/prettier-eslint
@@ -35,6 +43,7 @@ https://material-ui.com/
 https://www.styled-components.com/docs
 https://react.rocks/
 https://github.com/hanford/react-drag-drawer
+https://www.npmjs.com/package/react-cookie
 
 share
 web share api
